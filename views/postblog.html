@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Post a blog</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Post A Blog</h1>
+        <form action="/add-post" method="POST" enctype="application/x-www-form-urlencoded">        <label class="name">Title</label>
+        <br>
+        <input class="name" type="text" title="Blog Name" name="name" required>
+        <br>
+        <br>
+        <label class="title">Content</label>
+        <br>
+        <input class="title content content-box" type="text" title="title" name="title" required>
+        <br>
+        <br>
+
+        
+        <button class="submit" type="submit">Submit</button>
+        
+
+    </form>
+    <a href="/"><button>Cancel</button></a>
+</div>
+</body>
+</html>
